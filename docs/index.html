@@ -58,7 +58,7 @@
   <!-- CAROUSEL -->
   <div id="home" class="container-fluid" style="padding:0;">
     <section>
-      <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel" data-interval="5000">
         <ol class="carousel-indicators hidden-md-down">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -112,38 +112,32 @@
     <h2 class="bg-danger p-5 text-white">The Mojo mentality. We start with what you’re looking for out of your ride.</h2>
     <div class="container">
       <div class="row">
-        <!-- <div class="col text-center"> -->
-
           <h5 class="p-5 w-75 mx-auto">Owning a bike does not have to be confusing or overly expensive. At Mojo, we focus on cycling as a sport and help you achieve your unique performance, fitness, & adventure goals at YOUR pace.</h5>
-
-
-
-          <!-- <h2 class="m-t-0 text-primary">Flexbox</h2> -->
-
-        <!-- </div> -->
       </div>
     </div>
+
     <div class="container pb-5">
       <div class="row">
         <div class="col-lg-4 col-md-4 text-center">
           <div class="feature">
-            <i class="fa fa-cog"></i>
+            <img src="images/mojoCutUpLogo.svg" alt="Mojo Logo">
 
-            <p class="">Providing personalized & caring service that focuses on your specific needs.</p>
+            <h5 class="">Providing personalized & caring service that focuses on your specific needs.</h5>
+
           </div>
         </div>
         <div class="col-lg-4 col-md-4 text-center">
           <div class="feature">
-            <i class="fa fa-cog"></i>
+            <img src="images/mojoCutUpLogo.svg" alt="Mojo Logo">
 
-            <p class="">Searching relentlessly for the best bikes & products.</p>
+            <h5 class="">Searching relentlessly for the best bikes & products.</h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 text-center">
           <div class="feature">
-            <i class="fa fa-cog"></i>
+            <img src="images/mojoCutUpLogo.svg" alt="Mojo Logo">
 
-            <p class="">Offering our services & products at fair & competitive prices.</p>
+            <h5 class="">Offering our services & products at fair & competitive prices.</h5>
           </div>
         </div>
       </div>
@@ -181,7 +175,7 @@
             <ul class="p-2">
               <li>Tune Up: $49.99</li>
               <li>Tube, Install or Flat Repair: $10</li>
-              <li>Derailleur, Tune or Adjust $20</li>
+              <li>Derailleur, Tune or Adjust: $20</li>
             </ul>
           </div>
           <a href="./service" class="btn btn-danger">Full Service Pricing</a>
@@ -203,35 +197,36 @@
 
   <!-- Bike Section -->
   <div id="bikes" class="container-fluid bike-section">
-    <div class="container p-5">
+    <!-- <div class="container"> -->
       <div class="row">
-        <div class="col text-center">
-          <h1 class="p-2">Bikes</h1>
-        </div>
+        <!-- <div class="col text-center"> -->
+          <h1 class="bg-danger p-5 text-white w-100 text-center">Bikes</h1>
+        <!-- </div> -->
       </div>
-      <div class="row">
-      <div class="col-md">
-        <div class="card h-100 bg-light text-dark p-4">
-          <div class="card-block text-center mb-4">
-            <h3 class="card-title">The bike for you</h3>
-            <p class="card-text">We are here to help you find the right bike for your needs and budget.</p>
-
-          </div>
-          <div class="dropdown">
-            <button class="btn btn-danger dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Bikes
-              </button>
-            <div class="dropdown-menu text-center w-100" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="./road">Road</a>
-              <a class="dropdown-item" href="./mountain">Mountain</a>
-              <a class="dropdown-item" href="./hybrid">Sport & Fitness</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="row text-light p-5">
         <div class="col-md">
-          <div class="card h-100 bg-light text-dark p-4">
-            <div class="card-block text-center mb-4">
+          <div id="bikesCard" class="card h-100 bg-light p-4">
+            <div class="card-block text-center p-5 mb-4">
+              <h3 class="card-title">The bike for you</h3>
+              <p class="card-text">We are here to help you find the right bike for your needs and budget.</p>
+
+
+            <div class="dropdown">
+              <button class="btn btn-danger dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Bikes
+                </button>
+              <div class="dropdown-menu text-center w-100" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="./mountain">Mountain</a>
+                <a class="dropdown-item" href="./road">Gravel & Road</a>
+                <a class="dropdown-item" href="./hybrid">Sport & Fitness</a>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div id="customCard" class="card h-100 bg-light p-4">
+            <div class="card-block text-center p-5 mb-4">
               <h3 class="card-title">Custom bike builds</h3>
               <p class="card-text">Ready to build your dream machine? We’ll craft yours from the frame up.</p>
               <a href="./custom-builds" class="btn btn-danger btn-block">Recent builds</a>
@@ -239,7 +234,7 @@
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 
 
@@ -258,20 +253,26 @@
   <!-- Fittings -->
   <div id="fittings" class="container-fluid">
     <div class="row">
-      <div class="col-md-5 pt-4 pb-4 order-md-12 text-center">
-        <h1 class="p-2">Fitting</h1>
-        <h3 class="p-4">A quality fit starts with selecting the right size and style of bike for you.</h3>
-        <p class="p-3">Every bike purchase comes with a free professional fitting. A quality fitting is key to performance and comfort on your bike. Already have a bike and want to improve your comfort and performance? Call to schedule your fitting today!</p>
-        <div class="container">
-          <div class="row">
-            <a href="./fitting" class="btn btn-danger mx-auto">More about fittings</a>
+      <div class="col-md-5 pb-3 order-md-12 text-center">
+        <div class="row">
+          <h1 class="bg-danger p-5 text-white w-100">Fittings</h1>
+        </div>
+          <h3 class="p-4">A quality fit starts with selecting the right size and style of bike for you.</h3>
+          <p class="p-3">Every bike purchase comes with a free professional fitting. A quality fitting is key to performance and comfort on your bike. Already have a bike and want to improve your comfort and performance? Call to schedule your fitting today!</p>
+          <a href="./fitting" class="btn btn-danger">More about fittings</a>
+        </div>
+          <div class="col-md-7 fittings-img p-5">
+            <div class="container p-5">
+            <div class="row p-5">
+            </div>
+            </div>
           </div>
         </div>
-      </div>
+    </div>
 
-      <div class="col-md-7 order-sm-1">
-        <img class="img-fluid" src="images/bikeFitting.jpg" alt="Card image">
-      </div>
+      <!-- <div class="col-md-7 order-sm-1">
+        <img class="img-fluid fitings-img" src="images/bikeFitting.jpg" alt="Card image">
+      </div> -->
     </div>
   </div>
 
@@ -281,8 +282,8 @@
         <h2 class="p-4">Every Mojo bike comes with:</h2>
       </div>
       <div class="col-md-6">
-        <h5><i class="fa fa-dollar pr-3" aria-hidden="true"></i>10% off accessories</h5>
         <h5><i class="fa fa-check pr-3" aria-hidden="true"></i>A full professional fitting</h5>
+        <h5><i class="fa fa-dollar pr-3" aria-hidden="true"></i>10% off accessories</h5>
         <h5><i class="fa fa-wrench pr-3" aria-hidden="true"></i>Lifetime free tune ups</h5>
       </div>
     </div>
@@ -291,41 +292,26 @@
   <!-- Accessories -->
   <div id="accessories" class="container-fluid">
     <div class="row text-center">
-      <div class="col-md-5 pb-4">
-
-        <h2 class="bg-danger p-5 text-white">Accessories</h2>
-
+      <div class="col-md-5">
+        <div class="row">
+          <h2 class="bg-danger p-5 text-white w-100">Accessories</h2>
+        </div>
         <h3 class="p-3">The right accessories ensure you enjoy your ride with confidence. We offer 10% off accessories at the time of a new bike purchase!</h3>
         <p class="p-4">Whether you need a helmet for afternoons on the Razorback Greenway, full body armor and a darkness-obliterating headlight to Drop the Hammer at midnight, or a minimalist suite of bikepacking gear for camping out on the Katy Trail and beyond, we
           offer trail-tested products to outfit your adventures and the expertise to get you what you need - not what you don’t.</p>
-
-        <div class="container">
-          <div class="row">
-            <a href="./brands" class="btn btn-danger mx-auto">See all brands</a>
-          </div>
-        </div>
+        <!-- <div class="container"> -->
+        <!-- </div> -->
       </div>
-
       <div class="col-md-7 accessories-img p-5">
-        <!-- <div class="col-6"> -->
-
         <div class="container">
-          <div class="row">
-            <div class="mx-auto card h-100 bg-light text-dark p-4 m-5">
-              <div class="card-block text-center mb-4">
-                <h3 class="card-title">Trail proven brands</h3>
-                <p class="card-text">The brands we offer are proven on the trail and trusted by our riders.</p>
-
-              </div>
-              <a href="./brands" class="btn btn-danger btn-block">Our brands</a>
-            </div>
-            <!-- </div> -->
-            <!-- <img class="img-fluid" src="images/bikeShopShoes.jpg" alt="Card image"> -->
+          <div class="row p-5">
+          </div>
+          <div class="card-block text-center text-light">
+            <h5 class="card-text pt-4 pb-4">The brands we offer are proven on the trail and trusted by our riders.</h5>
+            <a href="./brands" class="btn btn-danger">See our brands</a>
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
 
@@ -350,67 +336,70 @@
 
   <!-- About -->
 
-  <div id="about" class="p-5 container-fluid text-center text-dark">
-    <div class="row">
-      <div class="col-md-7">
-        <div class="bg-danger pt-4 pb-4 text-center text-white">
-          <h1 class="text-center p-4">The Mojo story</h1>
-          <p class="font-italic">Passion to Pursuit</p>
+  <div id="about" class="container-fluid text-center text-dark">
+    <!-- <div class="row"> -->
+      <!-- <div class="col-md-6"> -->
+        <div class="row bg-danger p-4 text-center text-white">
+          <h1 class="w-100">The Mojo story</h1>
+          <p class="font-italic w-100">Passion to Pursuit</p>
         </div>
-        <h5 class="m-5">The freedom and enjoyment of cycling began as a boy for Mojo owner, Dave Neal.  In 2010, he purchased the shop and turned his passion for riding into a pursuit.</h5>
-        <h5 class="m-5">Mojo now exists to support everyone who rides or aspires to ride.  A bike opens a unique door for each rider:  to the natural world, to exploration with friends and family, to challenge and surpass the limits of one’s physical ability and mental focus, and to other diverse experiences.  Whatever draws you to get on a bike, we’re excited you’re with us in the great community of cycling.﻿</h5>
-      </div>
+          <h5 class="m-5">The freedom and enjoyment of cycling began as a boy for Mojo owner, Dave Neal.  In 2010, he purchased the shop and turned his passion for riding into a pursuit.</h5>
+    <!-- </div> -->
+  </div>
 
-      <div class="col-md-5 pr-4 pl-4">
-        <div class="row">
-          <div class="col">
-            <div class="team-images">
-              <img class="" src="images/mugShot.jpg" alt="">
-              <!-- </div> -->
-              <a href="./dave">
-                <div class="container overlay text-light">
-
-                  <p class=""><strong>Dave Neal</strong></p>
-                  <p>Owner, shredder</p>
-                  <p class="font-italic">read bio</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="team-images mx-auto">
-              <img class="" src="images/hunter.jpg" alt="">
-              <!-- </div> -->
-              <a href="./hunter">
-                <div class="container overlay text-light">
-
-                  <p class=""><strong>Hunter</strong></p>
-                  <p>Manager, offendable</p>
-                  <p class="font-italic">read bio</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="team-images mx-auto">
-              <img class="" src="images/keith-on-kids-bike.jpg" alt="">
-              <a href="./keith">
-                <div class="container overlay text-light">
-                  <p class=""><strong>Keith Lundy</strong></p>
-                  <p>Tech, excitable</p>
-                  <p class="font-italic">read bio</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="row about-img p-5">
+        <h5 class="m-5 text-light d-flex align-items-end">Mojo now exists to support everyone who rides or aspires to ride.  A bike opens a unique door for each rider:  to the natural world, to exploration with friends and family, to challenge and surpass the limits of one’s physical ability and mental focus, and to other diverse experiences.  Whatever draws you to get on a bike, we’re excited you’re with us in the great community of cycling.﻿</h5>
     </div>
   </div>
+  <!-- </div> -->
+
+<!-- Team section -->
+  <div class="album py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/mugShot.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <div class="team-name">
+                    <p><strong>Dave Neal</strong></p>
+                    <p>Owner, shredder</p>
+                  </div>
+                    <button type="button" class="btn btn-sm btn-outline-danger" href="./dave">View bio</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/hunter.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <div class="team-name">
+                    <p><strong>Hunter Adkisson</strong></p>
+                    <p>Manager, offendable</p>
+                  </div>
+                    <button type="button" class="btn btn-sm btn-outline-danger" href="./hunter">View bio</button>
+                    </div>
+
+                  </div>
+                </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/keith-on-kids-bike.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <div class="team-name">
+                      <p><strong>Keith Lundy</strong></p>
+                      <p>Mechanic, excitable</p>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-danger" href="./keith">View bio</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
   <!-- Quote Section -->
   <div class="container-fluid quote bg-light">
@@ -482,7 +471,7 @@
                 })();
                 </script> -->
 
-
+<!-- UPDATED FOOTER!!!! add to the rest of the site -->
     <div class="container-fluid bg-dark p-4">
       <div class="row">
         <div class="col-md">
@@ -506,7 +495,7 @@
         </div>
 
         <div class="col-md">
-          <div class=" h-100">
+          <div class="h-100">
             <ul class="list-group text-dark">
               <li class="list-group-item justify-content-between">
                 <h5>Location:</h5>
@@ -537,15 +526,19 @@
         </div>
 
         <div class="col-md">
-          <ul class="list-group h-100">
-            <h5 class="list-group-item text-dark">Trail Info:</h5>
-            <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
-            <li class="list-group-item"><a href="http://www.bellavistaar.gov/theback40/">Back 40</a></li>
-            <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
+          <div class="h-100">
+            <ul class="list-group">
+            <li class="list-group-item justify-content-between">
+              <h5>Trail Info:</h5>
+            </li>
+            <li class="list-group-item justify-content-between"><a href="http://oztrailsnwa.com/">Oz Trails NWA</a></li>
+            <li class="list-group-item justify-content-between"><a href="http://www.bellavistaar.gov/theback40/">Bella Vista Back 40</a></li>
+            <li class="list-group-item justify-content-between"><a href="https://ozarkcyclingadventures.com/">Ozark Cycling Adventures</a></li>
           </ul>
         </div>
       </div>
     </div>
+  </div>
 
     <div class="container-fluid bg-dark">
       <div class="row">

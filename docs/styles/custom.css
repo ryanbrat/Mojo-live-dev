@@ -39,6 +39,19 @@ ul{
   height: 200px;
 }
 
+/*Mojo mentality-features section*/
+
+.feature>img {
+  /*opacity: 0.2;*/
+  width: 80px;
+  /*margin-bottom: -80px;*/
+}
+
+.feature .back{
+  /*background-color: white;*/
+  /*padding: 20px;*/
+}
+
 .contact-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeTrail.jpg);
   background-repeat: no-repeat;
@@ -48,26 +61,40 @@ ul{
 }
 
 .bike-section {
-  background-color: grey;
+  /*background-color: grey;*/
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikesOnRack.jpg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*background-position: center center;*/
+  /*background-attachment: fixed;*/
+}
+
+#bikesCard{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikesOnRack.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
 }
 
-#bikes .btn{
+#customCard{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/build-kit.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*#bikes .btn{
   position: absolute !important;
-  bottom: 0 !important;
+  bottom: 10px !important;
   left: 0 !important;
-}
+}*/
 
-#bikes .dropdown{
+/*#bikes .dropdown{
   position: absolute !important;
-  bottom: 0 !important;
+  bottom: 10px !important;
   left: 0 !important;
   width: 100%;
-}
+}*/
 
 li{
   list-style-type: none;
@@ -128,7 +155,13 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
 
+.fittings-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeFitting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 
@@ -350,34 +383,32 @@ li{
   background-image: url(../images/hybrid-images/hybrid-khs-recumbant.jpg);
 }
 
+/*ABout section*/
 
+.about-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/group-ride-suburban.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+}
 
 
   /*TEAM IMAGES IN ABOUT SETCTION*/
 
-  .team-images {
-    position: relative;
-    /*max-width: 80%;*/
-  }
-
-  .team-images img {
-  /*display: block;*/
-  width: 250px;
-  height: 250px;
+.album .btn{
+  float: right;
 }
 
+.album .team-name{
+  float: left;
+}
 
-  .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 125px;
-  width: 250px;
-  opacity: 0;
-  transition: .5s ease;
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+/*@media screen and (max-width: 1000px) {
+  .album .btn, .album .team-name{
+    float: none;
   }
+}*/
 
 @media screen and (max-width: 768px) {
 
