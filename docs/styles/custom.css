@@ -241,6 +241,10 @@ li{
   background-image: url(../images/road-images/gt-grade.jpg);
 }
 
+.road-gravel{
+  background-image: url(../images/road-images/jamis-renigade.jpeg);
+}
+
 .road-cross{
   background-image: url(../images/road-images/orbea-terra.jpg);
 }
@@ -397,6 +401,18 @@ li{
 
 .hybrid-khs-ultrasport{
   background-image: url(../images/hybrid-images/khs-ultrasport.jpg);
+}
+
+.hybrid-day6{
+  background-image: url(../images/hybrid-images/day6dream24.png);
+}
+
+.hybrid-jamis-coda{
+  background-image: url(../images/hybrid-images/jamis-coda.jpeg);
+}
+
+.hybrid-khs-green{
+  background-image: url(../images/hybrid-images/khsgreen.jpeg);
 }
 
 .hybrid-jamis-cruiser{
