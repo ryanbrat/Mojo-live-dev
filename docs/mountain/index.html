@@ -27,10 +27,10 @@
           <a class="nav-link" href="../">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../road">Road</a>
+          <a class="nav-link active" href="../mountain">Mountain<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="../mountain">Mountain<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../road">Gravel & Road</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../hybrid">Sport & Fitness</a>
@@ -40,53 +40,55 @@
   </nav>
 
   <div class="p-5 text-white text-center mountain-header">
-    <h2 class="p-4">Mojo Mountain Bikes</h2>
-    <h4 class="text-center p-4">What's your flavor</h4>
+    <h2 class="p-md-4">Mojo Mountain Bikes</h2>
+    <h4 class="text-center p-md-4">What's your flavor?</h4>
   </div>
 
-  <div class="container p-5 text-center">
-    <p>Offering flowing single-track, technical climbs, chatty soil & craggy descents, North West Arkansas offers a huge variety of trails for mountain bikers of any experience level or riding style. If you like smooth & flowy single track, there is miles of it here in NWA. If you favor technical, rocky descents & root-filled climbs they are also easy to find here. But the local trail selections are not just technically & physically challenging, they also offer beautiful vistas & dramatic over-looks…not to mention quiet escapes from the daily grind. Regardless of your skill level, you can take advantage of our exciting local trails. The key to enjoying your riding experience is to ride trails appropriate to your riding style & skill level. You also need to have the appropriate bike for the trail.</p>
-    <p class="text-center font-italic">scroll down<i class="fa fa-arrow-down p-1" aria-hidden="true"></i></p>
+  <div class="container-fluid bg-dark p-5 text-center">
+    <div class="row text-light">
+      <p>Offering flowing single-track, technical climbs, chatty soil & craggy descents, North West Arkansas offers a huge variety of trails for mountain bikers of any experience level or riding style. If you like smooth & flowy single track, there is miles of it here in NWA. If you favor technical, rocky descents & root-filled climbs they are also easy to find here. But the local trail selections are not just technically & physically challenging, they also offer beautiful vistas & dramatic over-looks…not to mention quiet escapes from the daily grind. Regardless of your skill level, you can take advantage of our exciting local trails. The key to enjoying your riding experience is to ride trails appropriate to your riding style & skill level. You also need to have the appropriate bike for the trail.</p>
+      <p class="mx-auto font-italic">scroll down<i class="fa fa-arrow-down p-1" aria-hidden="true"></i></p>
+    </div>
   </div>
 
   <div id="mountain-bikes" class="container-fluid text-center">
-    <div class="row mountain-enduro">
+    <div class="row bike-img mountain-enduro">
     </div>
-    <div class="">
+    <div class="row bg-dark bike-description">
       <p><strong>All Mountain(AM)/Enduro:</strong> The multi-disciplinary mountain bike rider, all mountain cyclists attack everything a trail has to offer: jumps, drops, obstacles, descents & climbs... While AM riders favor descents & technical obstacles, they realize that “you have to earn your downhill” so climbing is also important. AM bikes can be hard tail or full suspension. Full suspension versions feature 4 to 8 inches of suspension travel & weigh 26 to 35 pounds. While they are designed to climb hills semi-efficiently, they are generally heavier & a bit more stout than the typical cross county mountain bike.</p>
     </div>
 
-    <div class="row mountain-xc">
+    <div class="row bike-img mountain-xc">
 
     </div>
-    <div class="">
+    <div class="row bg-dark bike-description">
       <p><strong>Cross Country (XC):</strong> The most common form of mountain bike riding. Cross Country riders regularly go for long rides on flowy or less technical terrain. Climbing hills quickly & efficiently is often raised to an art form with XC riders. Cross Country riders focus on maintaining a consistent cadence as they proceed along the trail, this often takes precedence over negotiating obstacles or riding technical terrain. XC bikes can be full suspension or hard tail. Bikes can vary in weight from 19 to 32 pounds. ​</p>
     </div>
-    <div class="row mountain-dh">
+    <div class="row bike-img mountain-dh">
 
     </div>
-    <div class="">
+    <div class="row bg-dark bike-description">
       <p><strong> Downhill (DH):</strong> DH riders shred downhill at extreme speeds, while taking large jumps, big drops & negotiating very technical trail sections. Down Hill riding focuses on technical riding skills that produce rapid gravity-based speed, over cadence. DH riders often push or shuttle their bikes to the top of the hill rather than pedaling up them. Downhill bikes weigh between 35 to 42 pounds & feature a full-suspension frame with large amounts of suspension travel (7” to 10”+). </p>
     </div>
 
-  <div class="row mountain-dj">
+  <div class="row bike-img mountain-dj">
 
   </div>
-  <div class="">
+  <div class="row bg-dark bike-description">
     <p><strong>Dirt Jump (DJ):</strong> Involves jumping over large dirt mounds that are placed somewhat close together. DJ riders use these mounds to jump high into the air & over long distances. Advanced riders are capable of doing jaw-dropping stunts while they are in the air. Dirt Jump bikes usually feature a dramatically sloping hard tail frame & a stiff short travel fork. They vary in weight, depending on the build, but average at 32 pounds.</p>
   </div>
 
-  <div class="row mountain-fr">
+  <div class="row bike-img mountain-fr">
 
   </div>
-  <div class="">
+  <div class="row bg-dark bike-description">
     <p><strong>Freeride (FR):</strong> Freeride usually involves large drops, jumps, & manmade stunts. FR riding often involves large drops & fast downhill descents. The trails are often accessed by shuttle but can be pedaled as well. Freeride bikes usually weigh 32 to 38 pounds & have large amounts of suspension travel (6" to 8"+) and are built to take a beating.</p>
   </div>
 
-  <div class="row mountain-ss">
+  <div class="row bike-img mountain-ss">
 
   </div>
-  <div class="">
+  <div class="row bg-dark bike-description">
     <p><strong>Single Speed (SS):</strong> A style of cross country biking with a specialized mountain bike that has only one gear ratio. The single gear option offers simplicity, but forces SS riders to focus on maintaining a steady cadence through all environmental situations. Single Speed bikes regularly weigh 19 to 25 pounds.</p>
   </div>
 
@@ -94,13 +96,14 @@
 
 <!-- Footer -->
 <footer>
-        <div class="container-fluid bg-dark p-4">
-          <div class="row">
-           <div class="col-md-4">
-             <ul class="list-group text-dark">
-               <li class="list-group-item">
-                 <h5>Hours:</h5>
-               </li>
+  <!-- UPDATED FOOTER -->
+      <div class="container-fluid bg-dark p-4">
+        <div class="row">
+          <div class="col-md">
+            <ul class="list-group text-dark h-100">
+              <li class="list-group-item">
+                <h5>Hours:</h5>
+              </li>
               <li class="list-group-item justify-content-between">
                 MON-FRI:
                 <span class="badge badge-default badge-pill">11am - 7pm</span>
@@ -114,47 +117,52 @@
                 <span class="badge badge-default badge-pill">Closed</span>
               </li>
             </ul>
-           </div>
-
-           <div class="col-md-4">
-             <div>
-               <ul class="list-group text-dark">
-                 <li class="list-group-item justify-content-between">
-                   <i class="fa fa-map-marker" aria-hidden="true">
-                     <a href="https://www.google.com/maps/place/Mojo+Cycling/@36.34927,-94.211372,15z/data=!4m5!3m4!1s0x0:0x60369447f715997e!8m2!3d36.34927!4d-94.211372">
-                       <strong>2104 S Walton Blvd, Bentonville, AR 72712</strong>
-                     </a>
-                    </i>
-                 </li>
+          </div>
+          <div class="col-md">
+            <div class="h-100">
+              <ul class="list-group text-dark">
+                <li class="list-group-item justify-content-between">
+                  <h5>Location:</h5>
+                </li>
+                <li class="list-group-item justify-content-between">
+                  <i class="fa fa-map-marker" aria-hidden="true">
+                         <a href="https://www.google.com/maps/place/Mojo+Cycling/@36.34927,-94.211372,15z/data=!4m5!3m4!1s0x0:0x60369447f715997e!8m2!3d36.34927!4d-94.211372">
+                           <strong>2104 S Walton Blvd, Bentonville, AR 72712</strong>
+                         </a>
+                        </i>
+                </li>
                 <li class="list-group-item justify-content-between">
                   <i class="fa fa-envelope-square" aria-hidden="true">
-                    <a href="mailto:mojobicycles@gmail.com">
-                      <strong>mojobicycles@gmail.com</strong>
-                   </a>
-                 </i>
+                        <a href="mailto:mojobicycles@gmail.com">
+                          <strong>mojobicycles@gmail.com</strong>
+                       </a>
+                     </i>
                 </li>
                 <li class="list-group-item justify-content-between">
                   <i class="fa fa-phone" aria-hidden="true">
-                    <a href="tel:4792717201">
-                      <strong>479-271-7201</strong>
-                   </a>
-                 </i>
-               </li>
+                        <a href="tel:4792717201">
+                          <strong>479-271-7201</strong>
+                       </a>
+                     </i>
+                </li>
               </ul>
-             </div>
-           </div>
-
-           <div class="col-md-4">
-             <ul class="list-group">
-               <h5 class="list-group-item text-dark">Trail Info:</h5>
-              <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
-              <li class="list-group-item"><a href="http://www.bellavistaar.gov/theback40/">Back 40</a></li>
-              <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
-             </ul>
+            </div>
           </div>
-
+          <div class="col-md">
+            <div class="h-100">
+              <ul class="list-group">
+              <li class="list-group-item justify-content-between">
+                <h5>Trail Info:</h5>
+              </li>
+              <li class="list-group-item justify-content-between"><a href="http://oztrailsnwa.com/">Oz Trails NWA</a></li>
+              <li class="list-group-item justify-content-between"><a href="http://www.bellavistaar.gov/theback40/">Bella Vista Back 40</a></li>
+              <li class="list-group-item justify-content-between"><a href="https://ozarkcyclingadventures.com/">Ozark Cycling Adventures</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+
             <div class="container-fluid bg-dark">
               <div class="row">
                 <div class="col-md-4 p-4">

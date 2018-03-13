@@ -180,9 +180,35 @@ li{
    background-attachment: fixed;
  }
 
+   /*TEAM IMAGES IN ABOUT SETCTION*/
+
+ .album .btn{
+   float: right;
+ }
+
+ .album .team-name{
+   float: left;
+ }
+
+ /*@media screen and (max-width: 1000px) {
+   .album .btn, .album .team-name{
+     float: none;
+   }
+ }*/
+
+ /*Styling for bikes description*/
+
+ .bike-description{
+   color: white;
+ }
+
+ .bike-description p{
+   padding: 20px;
+ }
+
 /*ROAD PAGE*/
 
-#road-bikes .row{
+#road-bikes .bike-img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -196,6 +222,7 @@ li{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  height: 60vh;
 }
 
 .road-race{
@@ -227,12 +254,13 @@ li{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  height: 60vh;
 }
 
-#mountain-bikes .row{
+#mountain-bikes .bike-img{
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
   height: 100vh;
 }
@@ -269,18 +297,15 @@ li{
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
+  height: 60vh;
 }
 
-#custom-bikes .row{
+#custom-bikes .bike-img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
-}
-
-#custom-bikes p{
-  padding: 1rem;
 }
 
 .custom-khs-sixfifty{
@@ -351,8 +376,6 @@ li{
   background-image: url(../images/custom/custom-salsa.jpeg);
 }
 
-
-
 /*HYBRID PAGE*/
 
 .hybrid-header{
@@ -361,9 +384,10 @@ li{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  height: 60vh;
 }
 
-#hybrid-bikes .row{
+#hybrid-bikes .bike-img{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -394,31 +418,12 @@ li{
 }
 
 
-  /*TEAM IMAGES IN ABOUT SETCTION*/
-
-.album .btn{
-  float: right;
-}
-
-.album .team-name{
-  float: left;
-}
-
-/*@media screen and (max-width: 1000px) {
-  .album .btn, .album .team-name{
-    float: none;
-  }
-}*/
-
 @media screen and (max-width: 768px) {
 
   .hidden-md-down{
     display: none;
   }
 
-  .team-images .overlay {
-    opacity: 1;
-  }
 }
 
 /*MEDIA QUERRIES*/
@@ -438,23 +443,5 @@ li{
   margin-top: 56px;
   }
 
-
-
-  .team-images:hover .overlay {
-    opacity: 1;
-  }
-
-  .overlay {
-  padding-top: 15%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 250px;
-  width: 250px;
-  opacity: 0;
-  transition: .5s ease;
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
-  }
 
 }
