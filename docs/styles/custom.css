@@ -6,7 +6,13 @@ ul{
   -webkit-padding-start: 0;
 }
 
+.dropdown-item:active{
+    background: red;
+}
 
+.dropdown-item:hover{
+    background: red;
+}
 
 
 /*add padding to all pages for nav*/
