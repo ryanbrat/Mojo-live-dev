@@ -123,11 +123,18 @@ $('.nav-link').on('click',function() {
 $(document).ready(function(){
 
 
-$(".slidingDiv").hide();
-	$(".show_hide").show();
+$(".about-mojo").hide();
+	$(".show-about").show();
 
-	$('.show_hide').click(function(){
-	$(".slidingDiv").slideToggle();
-	});
+	$(".show-about").click(function(){
+	$(".about-mojo").slideToggle();
 
+  });
+
+  $(".service-pricing").hide();
+    $(".show-service").show();
+
+    $(".show-service").click(function(){
+    $(".service-pricing").slideToggle();
+});
 });

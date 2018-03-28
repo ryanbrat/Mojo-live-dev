@@ -48,14 +48,7 @@ ul{
 /*Mojo mentality-features section*/
 
 .feature>img {
-  /*opacity: 0.2;*/
-  width: 80px;
-  /*margin-bottom: -80px;*/
-}
-
-.feature .back{
-  /*background-color: white;*/
-  /*padding: 20px;*/
+  width: 50px;
 }
 
 .contact-section {
@@ -135,11 +128,6 @@ li{
   background:rgba(0,0,0,0.55);
 }
 
-#fittings .col-md-7, #accessories .col-md-7{
-
-}
-
-
 .service-header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeShopWorkBench.jpg);
   background-repeat: no-repeat;
@@ -161,6 +149,7 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  min-height: 350px;
 }
 
 .fittings-img{
@@ -168,6 +157,7 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  min-height: 350px;
 }
 
 
@@ -186,6 +176,16 @@ li{
    background-attachment: fixed;
  }
 
+ /*ABout section*/
+
+ .about-img{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/group-ride-suburban.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   min-height: 500px;
+ }
+
    /*TEAM IMAGES IN ABOUT SETCTION*/
 
  .album .btn{
@@ -195,12 +195,6 @@ li{
  .album .team-name{
    float: left;
  }
-
- /*@media screen and (max-width: 1000px) {
-   .album .btn, .album .team-name{
-     float: none;
-   }
- }*/
 
  /*Styling for bikes description*/
 
@@ -429,15 +423,7 @@ li{
   background-image: url(../images/hybrid-images/hybrid-khs-recumbant.jpg);
 }
 
-/*ABout section*/
 
-.about-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/group-ride-suburban.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  min-height: 500px;
-}
 
 
 @media screen and (max-width: 768px) {
@@ -449,6 +435,16 @@ li{
   .display-2 {
     font-size: 3.5rem;
   }
+
+}
+
+@media screen and (max-width: 668px) {
+
+#bikes div.col-lg-6{
+  padding-right: 0;
+}
+
+
 
 }
 
@@ -472,31 +468,57 @@ li{
   .responsive-width {
     max-width: 60%;
   }
-
+  .feature>img {
+    width: 80px;
+  }
 
 
 }
 
 /*Font size adjustment*/
 
-/*html {
+body {
   font-size: 1rem;
 }
+.display-2 {
+  font-size: 1.8rem;
+}
+.display-3 {
+  font-size: 1.6rem;
+}
 
-@include media-breakpoint-up(sm) {
+@media screen and (min-width: 468px) {
   html {
     font-size: 1.2rem;
   }
+  .display-2 {
+    font-size: 2.0rem;
+  }
+  .display-3 {
+    font-size: 1.6rem;
+  }
 }
 
-@include media-breakpoint-up(md) {
+@media screen and (min-width: 768px) {
   html {
     font-size: 1.4rem;
   }
+  .display-2 {
+    font-size: 2.5rem;
+  }
+  .display-3 {
+    font-size: 2.0rem;
+  }
 }
 
-@include media-breakpoint-up(lg) {
+@media screen and (min-width: 1168px) {
   html {
     font-size: 1.6rem;
   }
-}*/
+  .display-2 {
+    font-size: 3.0rem;
+  }
+  .display-3 {
+    font-size: 2.5rem;
+  }
+}
