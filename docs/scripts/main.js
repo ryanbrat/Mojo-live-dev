@@ -117,3 +117,17 @@ $('.nav-link').on('click',function() {
 
 	$(document).ready($.proxy(anchorScrolls, 'init'));
 })(window.document, window.history, window.location);
+
+
+// Show text
+$(document).ready(function(){
+
+
+$(".slidingDiv").hide();
+	$(".show_hide").show();
+
+	$('.show_hide').click(function(){
+	$(".slidingDiv").slideToggle();
+	});
+
+});

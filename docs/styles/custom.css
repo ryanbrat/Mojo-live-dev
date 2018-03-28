@@ -432,7 +432,7 @@ li{
 /*ABout section*/
 
 .about-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.75)), url(../images/group-ride-suburban.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/group-ride-suburban.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -444,6 +444,10 @@ li{
 
   .hidden-md-down{
     display: none;
+  }
+
+  .display-2 {
+    font-size: 3.5rem;
   }
 
 }
@@ -465,5 +469,34 @@ li{
   margin-top: 56px;
   }
 
+  .responsive-width {
+    max-width: 60%;
+  }
+
+
 
 }
+
+/*Font size adjustment*/
+
+/*html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}*/
