@@ -432,21 +432,13 @@ li{
     display: none;
   }
 
-  .display-2 {
-    font-size: 3.5rem;
+  #bikes div.col-lg-6{
+    padding-right: 0;
   }
 
-}
-
-@media screen and (max-width: 668px) {
-
-#bikes div.col-lg-6{
-  padding-right: 0;
-}
-
-
 
 }
+
 
 /*MEDIA QUERRIES*/
 
