@@ -444,25 +444,7 @@ li{
 
 @media screen and (min-width: 768px) {
   /*Nav logo positioning*/
-.nav-logo {
-  left: 50px;
-  bottom: -120%;
-  position: absolute;
-  height: 120px;
-  width: 120px;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.5;
-  }
-  body{
-  margin-top: 56px;
-  }
 
-  .responsive-width {
-    max-width: 60%;
-  }
-  .feature>img {
-    width: 80px;
-  }
 
 
 }
@@ -501,6 +483,9 @@ body {
   .display-3 {
     font-size: 1.9rem;
   }
+  .responsive-width {
+    max-width: 60%;
+  }
 }
 
 @media screen and (min-width: 1168px) {
@@ -513,4 +498,21 @@ body {
   .display-3 {
     font-size: 2.5rem;
   }
+  .nav-logo {
+    left: 50px;
+    bottom: -120%;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5;
+    }
+    body{
+    margin-top: 56px;
+    }
+
+
+    .feature>img {
+      width: 80px;
+    }
 }
