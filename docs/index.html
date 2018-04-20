@@ -55,6 +55,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location">Location</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -397,24 +400,23 @@
                 })();
                 </script> -->
 <!-- End Contact -->
-<div class="container-fluid">
+<div id="location" class="container-fluid">
   <div class="row">
     <div id="map" class="w-100 p-4"></div>
-<script>
-  function initMap() {
-    var uluru = {lat: 36.3494947, lng: -94.2113505};
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 16,
-      center: uluru
-    });
-    var marker = new google.maps.Marker({
-      position: uluru,
-      map: map
-    });
-  }
-</script>
-
-</div>
+      <script>
+        function initMap() {
+          var uluru = {lat: 36.3494947, lng: -94.2113505};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+  </div>
 </div>
 
 <!-- UPDATED FOOTER -->

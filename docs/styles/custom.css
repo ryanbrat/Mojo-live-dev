@@ -1,5 +1,8 @@
 body{
   margin-top: 76px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  overflow-x: hidden !important;
 }
 
 ul{
@@ -13,15 +16,6 @@ ul{
 .dropdown-item:hover{
     background: red;
 }
-
-
-/*add padding to all pages for nav*/
-
-
-
-
-
-
 
 /*Nav logo positioning*/
 .nav-logo {
@@ -504,7 +498,7 @@ body {
   }
   .nav-logo {
     left: 50px;
-    bottom: -120%;
+    /*bottom: -120%;*/
     position: absolute;
     height: 120px;
     width: 120px;
