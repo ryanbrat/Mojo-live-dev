@@ -145,7 +145,7 @@ li{
 }
 
 .accessories-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/fitting-helmet.JPG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/helmets-wall.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -169,7 +169,7 @@ li{
  }
 
  .brands-header{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeShopWorkBench.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/helmets-wall.JPG);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
