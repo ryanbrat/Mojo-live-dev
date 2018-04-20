@@ -69,7 +69,7 @@ ul{
 }
 
 #bikesCard{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikesOnRack.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/sea-of-bikes.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -104,7 +104,7 @@ li{
 }
 
 .service-section{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeShopWorkBench.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/keith-wrenching.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -145,7 +145,7 @@ li{
 }
 
 .accessories-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeShopWorkBench.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/fitting-helmet.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -153,7 +153,7 @@ li{
 }
 
 .fittings-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeFitting.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/fitting-bars-2.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -195,6 +195,10 @@ li{
  .album .team-name{
    float: left;
  }*/
+
+ #map{
+   height: 500px;
+ }
 
  /*Styling for bikes description*/
 
