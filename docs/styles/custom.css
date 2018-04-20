@@ -139,7 +139,7 @@ li{
 }
 
 .accessories-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/helmets-wall.JPG);
+  background-image: url(../images/helmets-wall.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -147,7 +147,7 @@ li{
 }
 
 .fittings-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/fitting-bars-2.JPG);
+  background-image: url(../images/fitting-bars-2.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
