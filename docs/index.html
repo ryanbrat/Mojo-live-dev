@@ -78,7 +78,7 @@
             <div class="carousel-caption d-none d-block text-overlay">
               <h1 class="display-3">We are Mojo Cycling</h1>
               <h5>Community, Health, Performance.</h5>
-              <a href="#contact" class="btn btn-lg btn-danger hidden-md-down p-3 m-3">Join our mailing list</a>
+              <a href="./contact" class="btn btn-lg btn-danger hidden-md-down p-3 m-3">Join our mailing list</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -330,67 +330,6 @@
       </div>
     </div>
 
-    <section id="contact" class="content">
-			<div class="container">
-				<h2 class="text-center p-4">CONTACT</h2>
-				<p class="text-center text-light">Coming in to town and need recomendations on where to ride? Or just want to chat bikes? Drop us a line.</p>
-				<div class="row">
-					<div class="span12 contact-form">
-						<p id="formResponse"><?php if($error) { echo($error); } ?></p>
-						<form action="mail.php" method="POST" class="form-horizontal contact-form" id="contact-form">
-						  <?php $formKey->outputKey(); ?>
-						  <fieldset>
-							  <div class="control-group">
-							    <label class="control-label" for="inputName">Name</label>
-							    <div class="controls">
-							      <input class="input-80 required" name="name" type="text" id="inputName">
-							    </div>
-							  </div>
-							  <div class="control-group">
-							    <label class="control-label" for="inputEmail">Email</label>
-							    <div class="controls">
-							      <input class="input-80 required" name="email" type="text" id="inputEmail">
-							    </div>
-							  </div>
-
-							  <div class="control-group">
-							  	<label class="control-label" for="selectSubject">Subject</label>
-							  	<div class="controls">
-								  	<select class="input-80" id="selectSubject" name="type">
-									  <option value="question">Question</option>
-									  <option value="support">Support</option>
-									  <option value="misc">Comments, complaints, suggestions, other</option>
-									</select>
-								</div>
-							  </div>
-							  <div class="control-group">
-							    <label class="control-label" for="inputMessage">Message</label>
-							    <div class="controls">
-							      <textarea class="input-80 required" name="message" rows="12" id="inputMessage" placeholder="Please include as much detail as possible."></textarea>
-							    </div>
-							  </div>
-							  <div class="control-group">
-							    <label class="control-label" for="recaptcha">Are you human?</label>
-							    <div class="controls" id="recaptcha">
-							      <!-- <?php
-							          require_once('recaptchalib.php');
-							          $publickey = "6Le7CVYUAAAAAM7cIiUbXAfNq_lqgtDWG0S0kpiP"; // Add your own public key here
-							          echo recaptcha_get_html($publickey);
-							        ?> -->
-							    </div>
-									<div class="g-recaptcha" data-sitekey="6Le7CVYUAAAAAM7cIiUbXAfNq_lqgtDWG0S0kpiP"></div>
-							  </div>
-							  <div class="control-group">
-							    <div class="controls">
-							      <button type="submit" value="Send" class="btn">Send!</button>
-							    </div>
-							  </div>
-							</fieldset>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
 
 <div id="location" class="container-fluid">
   <div class="row">

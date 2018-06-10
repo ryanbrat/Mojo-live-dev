@@ -26,7 +26,7 @@
 				$msgClass = 'alert-danger';
 			} else {
 				// Passed
-				$toEmail = 'ryanlbratton@gmail.com';
+				$toEmail = 'mojobicycles.com';
 				$subject = 'You have a message from Mojocylcing.com';
 				$body = '
 					<h4>Name:</h4><p>'.$name.'</p>
