@@ -76,19 +76,6 @@ ul{
   background-position: center center;
 }
 
-/*#bikes .btn{
-  position: absolute !important;
-  bottom: 10px !important;
-  left: 0 !important;
-}*/
-
-/*#bikes .dropdown{
-  position: absolute !important;
-  bottom: 10px !important;
-  left: 0 !important;
-  width: 100%;
-}*/
-
 li{
   list-style-type: none;
 }
@@ -430,11 +417,6 @@ li{
     display: none;
   }
 
-  #bikes div.col-lg-6{
-    padding-right: 0;
-  }
-
-
 }
 
 
@@ -442,9 +424,6 @@ li{
 
 @media screen and (min-width: 768px) {
   /*Nav logo positioning*/
-
-
-
 }
 
 /*Font size adjustment*/
