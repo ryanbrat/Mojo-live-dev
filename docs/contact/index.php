@@ -26,7 +26,7 @@
 				$msgClass = 'alert-danger';
 			} else {
 				// Passed
-				$toEmail = 'mojobicycles.com';
+				$toEmail = 'mojobicycles@gmail.com';
 				$subject = 'You have a message from Mojocylcing.com';
 				$body = '
 					<h4>Name:</h4><p>'.$name.'</p>
@@ -131,7 +131,7 @@
 					 <label class="check" for="type1">
 					<input type="checkbox" class="form-control" name="check" value="Yes">
 						Sign me up for the POD!</label>
-						<span class="text-italic">Our daily newsletter</span>
+						<br><span class="font-italic">Our daily newsletter</span>
 				</div>
 	    	<br>
 	      <button type="submit" name="submit" class="btn btn-danger">Submit</button>
@@ -154,7 +154,7 @@
 	                </li>
 	                <li class="list-group-item justify-content-between">
 	                  MON-FRI:
-	                  <span class="badge badge-default badge-pill">11am - 7pm</span>
+	                  <span class="badge badge-default badge-pill">11am - 6:30pm</span>
 	                </li>
 	                <li class="list-group-item justify-content-between">
 	                  Saturday:
